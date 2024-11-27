@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    
+    background-image: url(ben.jpg);
+
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countener{
+    box-shadow: 0px 0px 10px rgba(255,255 , 255, 0.5);;
+    width: 36%;
+    height: 81%;
+    background-image: url(ben.jpg);
+    background-repeat: no-repeat;
+    background-size: 160% 82vh;
+     border-radius: 15px; 
+     overflow: hidden;
+     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.Title h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.countener .Title img{
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.Log button{ 
+    color: rgb(255, 255, 255);
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255,0.1);
+    margin: 0 53px;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.Log input{
+    width: 100%;
+    height: 24px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 3px;
+    border-radius: 5px;
+}
+.Log label{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffffb4;
+    
+
+}
+ button:hover{
+    
+    box-shadow: 0px 0px 10px #fff;
+    transition: 0.5s;
+}
+textarea:focus,#email,#password:focus{
+    border: none;
+    outline: none;
+    color: black;
+
+}
